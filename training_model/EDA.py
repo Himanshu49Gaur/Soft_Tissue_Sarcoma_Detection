@@ -108,3 +108,20 @@ plt.ylabel("Mean Pixel Value")
 plt.xlabel("Tumor Class")
 plt.xticks(ticks=[0, 1, 2], labels=class_labels)
 plt.show()
+
+# 3.10 Aspect Ratio Analysis
+aspect_ratios = {class_name: [] for class_name in class_labels}
+for i, class_name in enumerate(class_labels):
+    class_indices = np.where(y_train == i)[0]
+    sample_images = np.random.choice(class_indices, size=min(10, len(class_indices)), replace=False)
+    for idx in sample_images:
+        h, w, _ = X_train[idx].shape
+        aspect_ratios[class_name].append(w / h)
+df_aspect_ratios = pd.DataFrame(aspect_ratios)
+plt.figure(figsize=(8, 5))
+sns.boxplot(data=df_aspect_ratios)
+plt.title("Aspect Ratio Distribution Across Classes")
+plt.ylabel("Width / Height Ratio")
+plt.xlabel("Tumor Class")
+plt.xticks(ticks=[0, 1, 2], labels=class_labels)
+plt.show()
