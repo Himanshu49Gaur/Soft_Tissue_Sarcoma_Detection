@@ -40,3 +40,21 @@ for i, ax in enumerate(axes.flat):
     ax.set_title(class_labels[y_train[idx]])
     ax.axis("off")
 plt.show()
+
+# 3.3 Pixel Intensity Distribution (Histogram)
+plt.figure(figsize=(8, 5))
+sns.histplot(X_train.flatten(), bins=50, kde=True, color='purple')
+plt.title("Pixel Intensity Distribution in Training Set")
+plt.xlabel("Pixel Intensity (Normalized)")
+plt.ylabel("Frequency")
+plt.show()
+
+# 3.4 Dataset Shape & Validation
+dataset_info = pd.DataFrame({
+    "Dataset": ["Train", "Validation", "Test"],
+    "Image Shape": [X_train.shape[1:], X_val.shape[1:], X_test.shape[1:]],
+    "Total Images": [X_train.shape[0], X_val.shape[0], X_test.shape[0]],
+    "Classes": [len(set(y_train)), len(set(y_val)), len(set(y_test))],
+})
+print("Dataset Overview:")
+print(dataset_info.to_string(index=False))
