@@ -92,3 +92,19 @@ for i, class_label in enumerate(class_labels):
     axes[i].set_xlabel("Pixel Intensity")
     axes[i].set_ylabel("Frequency")
 plt.show()
+
+# 3.9 Brightness Distribution
+brightness_values = {class_name: [] for class_name in class_labels}
+for i, class_name in enumerate(class_labels):
+    class_indices = np.where(y_train == i)[0]
+    sample_images = np.random.choice(class_indices, size=min(10, len(class_indices)), replace=False)
+    for idx in sample_images:
+        brightness_values[class_name].append(np.mean(X_train[idx]))
+df_brightness = pd.DataFrame(brightness_values)
+plt.figure(figsize=(8, 5))
+sns.boxplot(data=df_brightness)
+plt.title("Brightness Distribution Across Classes")
+plt.ylabel("Mean Pixel Value")
+plt.xlabel("Tumor Class")
+plt.xticks(ticks=[0, 1, 2], labels=class_labels)
+plt.show()
