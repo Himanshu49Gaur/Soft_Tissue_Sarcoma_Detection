@@ -73,3 +73,22 @@ sns.heatmap(correlation_matrix, annot=True, cmap="coolwarm", fmt=".2f",
             xticklabels=class_labels, yticklabels=class_labels)
 plt.title("Correlation Matrix Between Classes")
 plt.show()
+
+# 3.7 Check for Class Imbalance (Pie Chart)
+unique_labels, label_counts = np.unique(y_train, return_counts=True)
+plt.figure(figsize=(6, 6))
+plt.pie(label_counts, labels=class_labels, autopct="%1.1f%%",
+        colors=["gold", "lightcoral", "lightskyblue"])
+plt.title("Class Distribution in Training Set")
+plt.show()
+
+# 3.8 Pixel Intensity Comparison Between Classes
+fig, axes = plt.subplots(1, 3, figsize=(15, 5))
+for i, class_label in enumerate(class_labels):
+    class_indices = np.where(y_train == i)[0]
+    class_pixels = X_train[class_indices].flatten()
+    sns.histplot(class_pixels, bins=50, kde=True, ax=axes[i], color=np.random.rand(3,))
+    axes[i].set_title(f"Pixel Intensity Distribution ({class_label})")
+    axes[i].set_xlabel("Pixel Intensity")
+    axes[i].set_ylabel("Frequency")
+plt.show()
