@@ -125,3 +125,37 @@ plt.ylabel("Width / Height Ratio")
 plt.xlabel("Tumor Class")
 plt.xticks(ticks=[0, 1, 2], labels=class_labels)
 plt.show()
+
+# 3.11 RGB Channel Mean Analysis
+channel_means = {class_name: [] for class_name in class_labels}
+for i, class_name in enumerate(class_labels):
+    class_indices = np.where(y_train == i)[0]
+    sample_images = np.random.choice(class_indices, size=min(10, len(class_indices)), replace=False)
+    for idx in sample_images:
+        img = X_train[idx]
+        r_mean, g_mean, b_mean = np.mean(img[:, :, 0]), np.mean(img[:, :, 1]), np.mean(img[:, :, 2])
+        channel_means[class_name].append([r_mean, g_mean, b_mean])
+
+df_channel_means = pd.DataFrame({
+    "Class": np.repeat(class_labels, 10),
+    "Red Mean": np.concatenate([np.array(channel_means[c])[:, 0] for c in class_labels]),
+    "Green Mean": np.concatenate([np.array(channel_means[c])[:, 1] for c in class_labels]),
+    "Blue Mean": np.concatenate([np.array(channel_means[c])[:, 2] for c in class_labels]),
+})
+
+plt.figure(figsize=(8, 5))
+sns.boxplot(x="Class", y="Red Mean", data=df_channel_means, palette="Reds")
+plt.title("Red Channel Mean Distribution Across Classes")
+plt.show()
+
+plt.figure(figsize=(8, 5))
+sns.boxplot(x="Class", y="Green Mean", data=df_channel_means, palette="Greens")
+plt.title("Green Channel Mean Distribution Across Classes")
+plt.show()
+
+plt.figure(figsize=(8, 5))
+sns.boxplot(x="Class", y="Blue Mean", data=df_channel_means, palette="Blues")
+plt.title("Blue Channel Mean Distribution Across Classes")
+plt.show()
+
+print("Exploratory Data Analysis (EDA) completed successfully.")
