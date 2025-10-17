@@ -58,3 +58,18 @@ dataset_info = pd.DataFrame({
 })
 print("Dataset Overview:")
 print(dataset_info.to_string(index=False))
+
+# 3.5 Mean and Standard Deviation of Pixel Intensities
+mean_intensity = np.mean(X_train)
+std_intensity = np.std(X_train)
+print(f"\nMean Pixel Intensity: {mean_intensity:.4f}")
+print(f"Standard Deviation of Pixel Intensities: {std_intensity:.4f}")
+
+# 3.6 Correlation Between Image Classes (One-Hot Encoding)
+y_train_one_hot = pd.get_dummies(y_train)
+correlation_matrix = y_train_one_hot.corr()
+plt.figure(figsize=(6, 5))
+sns.heatmap(correlation_matrix, annot=True, cmap="coolwarm", fmt=".2f",
+            xticklabels=class_labels, yticklabels=class_labels)
+plt.title("Correlation Matrix Between Classes")
+plt.show()
