@@ -135,3 +135,12 @@ jupyter notebook Soft_Tissue_Sarcoma_Detection.ipynb
 undefined
 
 ---
+
+## 9. Discussion and Future Work
+The GCN-based approach successfully models relational dependencies among features, improving classification performance in complex biomedical datasets.
+
+**Future Enhancements:**
+- Expand dataset for better generalization.  
+- Implement **Graph Attention Networks (GAT)** for adaptive weighting.  
+- Incorporate **explainable AI** techniques for enhanced interpretability.  
+- Deploy trained model via **web/Streamlit** interface for clinical accessibility.
