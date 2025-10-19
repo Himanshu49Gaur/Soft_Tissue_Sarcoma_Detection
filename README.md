@@ -75,3 +75,12 @@ The proposed pipeline combines data preprocessing, hybrid feature extraction, gr
 | GPU Acceleration | CUDA |
 
 ---
+
+## 5. Key Features
+- End-to-end automated soft tissue sarcoma detection pipeline.  
+- Integration of hybrid CNN-RNN features with graph-based learning.  
+- GPU-enabled model training for enhanced performance.  
+- Modular code structure for scalability and experimentation.  
+- Comprehensive visualization and interpretability components.
+
+---
