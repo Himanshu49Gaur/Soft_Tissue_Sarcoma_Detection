@@ -36,7 +36,7 @@ The following EDA techniques and methods were employed in this project:
 
 ## 4. Implementation Summary
 
-All the above techniques are implemented in the EDA code file — `eda_analysis.ipynb` (or `eda_analysis.py`).  
+All the above techniques are implemented in the EDA code file — `eda_analysis.py`.  
 The code follows a structured approach:
 
 1. **Data Loading:** Reads and organizes image data from `train`, `validation`, and `test` folders.  
