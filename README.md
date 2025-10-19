@@ -147,6 +147,16 @@ The GCN-based approach successfully models relational dependencies among feature
 
 ---
 
+
+## **About the Author** 
+
+| `Name` | Himanshu Gaur |
+| `Email` | himanshugaur1810@gmail.com |
+| `LinkedIn` | https://www.linkedin.com/in/himanshu-gaur-305006282/ |
+| `GitHub` | Himanshu49Gaur |
+
+---
+
 ## 10. References
 - Kipf, T.N., & Welling, M. (2016). *Semi-Supervised Classification with Graph Convolutional Networks.*  
 - Hamilton, W. et al. (2017). *Inductive Representation Learning on Large Graphs.*  
