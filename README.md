@@ -109,5 +109,7 @@ The model achieved high validation accuracy with clear class separation across a
 |------|--------------|
 | `Soft_Tissue_Sarcoma_Detection.ipynb` | Jupyter notebook containing full pipeline & analysis |
 | `Soft_Tissue_Sarcoma_Detection.py` | Executable Python version of the notebook |
-| `optimized_hybrid_cnn_rnn_model.keras` | Pretrained feature extraction model |
-| `README.md` | Documentation file (this file) |
+| `README.md` | Documentation file |
+| `Separate code files in python` | All the files with each cell excecuted in different python files avaliable in the model training section |
+| `Documents Section`| Contains all the required docuementations of the project |
+| `Result Section` | Contains all the results with Images, Results, Graphs etc. | 
