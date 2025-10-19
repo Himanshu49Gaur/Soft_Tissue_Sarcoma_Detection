@@ -44,3 +44,13 @@ This section presents all the experimental results, dataset statistics, model ev
 **Standard Deviation of Pixel Intensities:** 0.2180  
 
 ---
+
+## 3. Label Distribution (After Balancing)
+
+| Class               | Number of Images |
+|----------------------|------------------|
+| Non-Tumor            | 340              |
+| Non-Viable-Tumor     | 340              |
+| Viable               | 340              |
+
+---
