@@ -46,3 +46,20 @@ The code follows a structured approach:
 5. **Feature-Level Analysis:** Reviews extracted features and their relationships across samples.
 
 ---
+
+## 5. Results and Observations
+
+| Metric | Observation |
+|--------|--------------|
+| **Image Resolution** | All images standardized to (224 × 224 × 3). |
+| **Number of Classes** | 3 classes – Non-Tumor, Non-Viable Tumor, Viable. |
+| **Class Balance (Before Balancing)** | Non-Tumor: 340, Non-Viable-Tumor: 144, Viable: 156. |
+| **Class Balance (After Balancing)** | All classes balanced to 340 samples each. |
+| **Mean Pixel Intensity** | 0.7616 |
+| **Standard Deviation** | 0.2180 |
+| **Augmentation Effectiveness** | Successfully increased dataset diversity and balance without loss of image quality. |
+
+**Key Insight:**  
+The EDA revealed slight class imbalance and high feature variance, which justified implementing augmentation and normalization. These steps improved model convergence and reduced bias in later training stages.
+
+---
