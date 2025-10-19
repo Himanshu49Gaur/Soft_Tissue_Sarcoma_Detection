@@ -8,3 +8,13 @@ EDA helps identify patterns, detect anomalies, and ensure the dataset is balance
 The EDA conducted in this section provided insights into **data quality, class distribution, feature variability, and normalization requirements**, all of which guided the model architecture design.
 
 ---
+
+## 2. Objectives of EDA
+
+1. **Understand Dataset Composition** – Determine the number of images, their dimensions, and class distribution across training, validation, and test sets.  
+2. **Assess Class Balance** – Identify if the dataset is imbalanced and perform augmentation or sampling where necessary.  
+3. **Visualize Data Distribution** – Generate visual summaries to understand pixel intensity, color channels, and feature variation.  
+4. **Detect Anomalies or Noise** – Identify corrupted or misclassified samples through visualization and statistical metrics.  
+5. **Guide Preprocessing Decisions** – Provide a data-driven foundation for normalization, augmentation, and feature extraction strategies.
+
+---
