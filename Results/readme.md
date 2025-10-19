@@ -113,3 +113,11 @@ This section presents all the experimental results, dataset statistics, model ev
 | CNN + GCN       | 0.8059         | 0.8676               | 431,524      | Captures relational dependencies between image features |
 
 ---
+
+## 7. Key Insights
+
+- The **CNN model** achieved superior test accuracy and faster convergence.  
+- The **GCN-enhanced hybrid model** provided deeper insight into relational feature dependencies.  
+- The dataset balancing improved the fairness of class representation.  
+- Feature normalization and graph connectivity significantly influenced GCN accuracy.  
+- ROC curves, confusion matrices, and learning plots confirm the models’ robust behavior across epochs.
