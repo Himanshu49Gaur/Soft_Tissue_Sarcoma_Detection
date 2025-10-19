@@ -113,3 +113,5 @@ The model achieved high validation accuracy with clear class separation across a
 | `Separate code files in python` | All the files with each cell excecuted in different python files avaliable in the model training section |
 | `Documents Section`| Contains all the required docuementations of the project |
 | `Result Section` | Contains all the results with Images, Results, Graphs etc. | 
+
+---
