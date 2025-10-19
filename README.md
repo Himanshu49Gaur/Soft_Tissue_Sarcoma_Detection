@@ -62,3 +62,16 @@ The proposed pipeline combines data preprocessing, hybrid feature extraction, gr
   - Confusion matrix heatmap  
 
 ---
+
+## 4. Technologies Used
+
+| Category | Libraries / Frameworks |
+|-----------|------------------------|
+| Programming Language | Python 3.x |
+| Deep Learning | PyTorch, TensorFlow |
+| Graph Learning | PyTorch Geometric |
+| Data Manipulation | NumPy, pandas, scikit-learn |
+| Visualization | Matplotlib, Seaborn |
+| GPU Acceleration | CUDA |
+
+---
