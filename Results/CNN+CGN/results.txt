@@ -1,1 +1,24 @@
+Epoch 001 | Loss: 1.0895 | Train Acc: 0.7598 | Val Acc: 0.7647
+Epoch 010 | Loss: 0.5474 | Train Acc: 0.7966 | Val Acc: 0.7892
+Epoch 020 | Loss: 0.4986 | Train Acc: 0.8186 | Val Acc: 0.8382
+Epoch 030 | Loss: 0.4672 | Train Acc: 0.8260 | Val Acc: 0.8431
+Epoch 040 | Loss: 0.4425 | Train Acc: 0.8284 | Val Acc: 0.8480
+Epoch 050 | Loss: 0.4289 | Train Acc: 0.8284 | Val Acc: 0.8529
+Epoch 060 | Loss: 0.4203 | Train Acc: 0.8419 | Val Acc: 0.8480
+Epoch 070 | Loss: 0.4137 | Train Acc: 0.8480 | Val Acc: 0.8431
+Epoch 080 | Loss: 0.4087 | Train Acc: 0.8493 | Val Acc: 0.8431
+Epoch 090 | Loss: 0.4044 | Train Acc: 0.8444 | Val Acc: 0.8529
+Epoch 100 | Loss: 0.4005 | Train Acc: 0.8456 | Val Acc: 0.8578
+Epoch 110 | Loss: 0.3970 | Train Acc: 0.8468 | Val Acc: 0.8627
+Epoch 120 | Loss: 0.3936 | Train Acc: 0.8493 | Val Acc: 0.8627
+Epoch 130 | Loss: 0.3905 | Train Acc: 0.8505 | Val Acc: 0.8627
+Epoch 140 | Loss: 0.3876 | Train Acc: 0.8554 | Val Acc: 0.8676
+Epoch 150 | Loss: 0.3849 | Train Acc: 0.8578 | Val Acc: 0.8676
+Epoch 160 | Loss: 0.3824 | Train Acc: 0.8591 | Val Acc: 0.8676
+Epoch 170 | Loss: 0.3800 | Train Acc: 0.8591 | Val Acc: 0.8676
+Epoch 180 | Loss: 0.3776 | Train Acc: 0.8591 | Val Acc: 0.8676
+Epoch 190 | Loss: 0.3754 | Train Acc: 0.8591 | Val Acc: 0.8676
+Epoch 200 | Loss: 0.3732 | Train Acc: 0.8603 | Val Acc: 0.8676
 
+Final Training Accuracy: 0.8603
+Final Validation Accuracy: 0.8676
