@@ -104,3 +104,12 @@ This section presents all the experimental results, dataset statistics, model ev
 | **Weighted Avg** | 0.85       | 0.85   | 0.85      | 1020     |
 
 ---
+
+## 6. Summary
+
+| Model Type     | Test Accuracy | Validation Accuracy | Graph Edges | Remarks |
+|-----------------|----------------|----------------------|--------------|----------|
+| CNN             | 0.9451         | 0.93                 | -            | Excellent generalization and precision |
+| CNN + GCN       | 0.8059         | 0.8676               | 431,524      | Captures relational dependencies between image features |
+
+---
