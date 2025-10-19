@@ -149,7 +149,8 @@ The GCN-based approach successfully models relational dependencies among feature
 
 
 ## **About the Author** 
-
+| Matrix | Descrpition |
+|--------|----------------|
 | `Name` | Himanshu Gaur |
 | `Email` | himanshugaur1810@gmail.com |
 | `LinkedIn` | https://www.linkedin.com/in/himanshu-gaur-305006282/ |
