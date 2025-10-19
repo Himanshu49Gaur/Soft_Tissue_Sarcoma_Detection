@@ -12,3 +12,10 @@ This project presents a **Graph Convolutional Network (GCN)**-based framework fo
 The proposed pipeline combines data preprocessing, hybrid feature extraction, graph construction, and graph-based deep learning to improve the accuracy and interpretability of STS classification.
 
 ---
+
+## 2. Objectives
+- Construct a robust end-to-end pipeline for soft tissue sarcoma detection using graph-based learning.  
+- Employ Graph Convolutional Networks (GCNs) for capturing non-linear dependencies among tissue features.  
+- Analyze the performance of the proposed model using standard evaluation metrics and visualization tools.
+
+---
