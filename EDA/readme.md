@@ -33,3 +33,16 @@ The following EDA techniques and methods were employed in this project:
 | **Augmentation Impact Review** | Assesses the effectiveness of data augmentation in balancing classes. | Compared pre- and post-augmentation histograms. |
 
 ---
+
+## 4. Implementation Summary
+
+All the above techniques are implemented in the EDA code file — `eda_analysis.ipynb` (or `eda_analysis.py`).  
+The code follows a structured approach:
+
+1. **Data Loading:** Reads and organizes image data from `train`, `validation`, and `test` folders.  
+2. **Statistical Computation:** Calculates descriptive statistics for the dataset.  
+3. **Visualization:** Generates graphs and plots for class balance, pixel intensity, and sample previews.  
+4. **Data Integrity Check:** Identifies missing, corrupted, or incorrectly labeled files.  
+5. **Feature-Level Analysis:** Reviews extracted features and their relationships across samples.
+
+---
