@@ -19,3 +19,46 @@ The proposed pipeline combines data preprocessing, hybrid feature extraction, gr
 - Analyze the performance of the proposed model using standard evaluation metrics and visualization tools.
 
 ---
+
+## 3. Methodology
+
+### 3.1 Data Preprocessing
+- Data is cleaned, normalized, and formatted to ensure uniformity.  
+- Feature vectors are extracted and represented as nodes in a graph.  
+- An adjacency matrix or edge list defines relationships between data points based on feature similarity or distance metrics.
+
+### 3.2 Model Loading
+- Pretrained hybrid **CNN-RNN** models saved in `.keras` format are loaded using TensorFlow.  
+- These models provide feature-level representations for subsequent graph learning.
+
+### 3.3 Graph Construction
+- Dataset converted into a **PyTorch Geometric** `Data` object consisting of:
+  - Node features (x)  
+  - Edge indices (edge_index)  
+  - Target labels (y)  
+- Data transferred to GPU for accelerated computation.
+
+### 3.4 Model Definition (GCN)
+- Implemented using `torch_geometric.nn.GCNConv`.  
+- Architecture: two convolutional layers with **ReLU** and **log-softmax** activation.  
+- Hidden dimension: 128  
+- Output classes: 3
+
+### 3.5 Model Training
+- Dataset split into training and validation subsets using stratified sampling.  
+- Trained for **200 epochs** using **Adam optimizer** (learning rate: 0.001, weight decay: 5e-4).  
+- **Cross-entropy loss** used as the objective function.  
+- Training and validation metrics logged per epoch.
+
+### 3.6 Evaluation and Analysis
+- Best-performing model (based on validation accuracy) saved.  
+- Evaluation metrics include:
+  - Classification report (Precision, Recall, F1-score)  
+  - Confusion matrix  
+  - ROC and AUC scores  
+- Visualizations:
+  - ROC curves  
+  - Loss and accuracy curves  
+  - Confusion matrix heatmap  
+
+---
