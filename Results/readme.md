@@ -31,3 +31,16 @@ This section presents all the experimental results, dataset statistics, model ev
 | Viable               | 44               |
 
 ---
+
+## 2. Dataset Overview
+
+| Dataset     | Image Shape     | Total Images | Classes |
+|--------------|------------------|---------------|----------|
+| Train        | (224, 224, 3)    | 1020          | 3        |
+| Validation   | (224, 224, 3)    | 264           | 3        |
+| Test         | (224, 224, 3)    | 273           | 3        |
+
+**Mean Pixel Intensity:** 0.7616  
+**Standard Deviation of Pixel Intensities:** 0.2180  
+
+---
