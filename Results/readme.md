@@ -71,3 +71,24 @@ This section presents all the experimental results, dataset statistics, model ev
 | **Weighted Avg**    | 0.94       | 0.93   | 0.93      | 273      |
 
 ---
+
+## 5. CNN + GCN Model Results
+
+**Test Accuracy:** `0.8059`
+
+**Graph Statistics:**
+- **Nodes:** 1020  
+- **Edges:** 215,762 (before PyG conversion)  
+- **Edges (PyG format):** 431,524  
+- **Classes:** [0, 1, 2]  
+- **Label Distribution:** [340, 340, 340]  
+
+### **Model Performance**
+
+| Metric                  | Value    |
+|--------------------------|----------|
+| Final Training Accuracy  | 0.8603   |
+| Final Validation Accuracy| 0.8676   |
+
+---
+
