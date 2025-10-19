@@ -54,3 +54,20 @@ This section presents all the experimental results, dataset statistics, model ev
 | Viable               | 340              |
 
 ---
+
+## 4. CNN Model Results
+
+**Test Accuracy:** `0.9451`
+
+### **Classification Report**
+
+| Class              | Precision | Recall | F1-Score | Support |
+|---------------------|------------|--------|-----------|----------|
+| Non-Tumor           | 0.86       | 0.98   | 0.92      | 91       |
+| Non-Viable-Tumor    | 0.97       | 0.91   | 0.94      | 91       |
+| Viable              | 0.99       | 0.91   | 0.95      | 91       |
+| **Accuracy**        |            |        | **0.93**  | **273**  |
+| **Macro Avg**       | 0.94       | 0.93   | 0.93      | 273      |
+| **Weighted Avg**    | 0.94       | 0.93   | 0.93      | 273      |
+
+---
