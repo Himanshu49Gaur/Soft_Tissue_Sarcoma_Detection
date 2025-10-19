@@ -1,1 +1,39 @@
-
+I0000 00:00:1747493279.707760      35 gpu_device.cc:2022] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13942 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:04.0, compute capability: 7.5
+I0000 00:00:1747493279.708530      35 gpu_device.cc:2022] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 13942 MB memory:  -> device: 1, name: Tesla T4, pci bus id: 0000:00:05.0, compute capability: 7.5
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5
+94765736/94765736 ━━━━━━━━━━━━━━━━━━━━ 0s 0us/step
+Downloading data from https://storage.googleapis.com/keras-applications/efficientnetb0_notop.h5
+16705208/16705208 ━━━━━━━━━━━━━━━━━━━━ 0s 0us/step
+Epoch 1/30
+I0000 00:00:1747493408.714198      98 cuda_dnn.cc:529] Loaded cuDNN version 90300
+64/64 ━━━━━━━━━━━━━━━━━━━━ 127s 533ms/step - accuracy: 0.4323 - loss: 1.5295 - val_accuracy: 0.3333 - val_loss: 1.1714
+Epoch 2/30
+64/64 ━━━━━━━━━━━━━━━━━━━━ 21s 330ms/step - accuracy: 0.7613 - loss: 0.6066 - val_accuracy: 0.3333 - val_loss: 1.2762
+Epoch 3/30
+64/64 ━━━━━━━━━━━━━━━━━━━━ 21s 331ms/step - accuracy: 0.8354 - loss: 0.4513 - val_accuracy: 0.3333 - val_loss: 1.3870
+Epoch 4/30
+64/64 ━━━━━━━━━━━━━━━━━━━━ 21s 332ms/step - accuracy: 0.8485 - loss: 0.3900 - val_accuracy: 0.3333 - val_loss: 1.5296
+Epoch 5/30
+64/64 ━━━━━━━━━━━━━━━━━━━━ 21s 333ms/step - accuracy: 0.8829 - loss: 0.3121 - val_accuracy: 0.3333 - val_loss: 1.7638
+Epoch 6/30
+64/64 ━━━━━━━━━━━━━━━━━━━━ 21s 335ms/step - accuracy: 0.8917 - loss: 0.2748 - val_accuracy: 0.3333 - val_loss: 2.0567
+Epoch 7/30
+64/64 ━━━━━━━━━━━━━━━━━━━━ 21s 335ms/step - accuracy: 0.9029 - loss: 0.2648 - val_accuracy: 0.3220 - val_loss: 2.2563
+Epoch 8/30
+64/64 ━━━━━━━━━━━━━━━━━━━━ 22s 336ms/step - accuracy: 0.9062 - loss: 0.2859 - val_accuracy: 0.3333 - val_loss: 2.1695
+Epoch 9/30
+64/64 ━━━━━━━━━━━━━━━━━━━━ 21s 335ms/step - accuracy: 0.9353 - loss: 0.1805 - val_accuracy: 0.3674 - val_loss: 2.1913
+Epoch 10/30
+64/64 ━━━━━━━━━━━━━━━━━━━━ 22s 336ms/step - accuracy: 0.9226 - loss: 0.1976 - val_accuracy: 0.5000 - val_loss: 2.2338
+Epoch 11/30
+64/64 ━━━━━━━━━━━━━━━━━━━━ 22s 337ms/step - accuracy: 0.9435 - loss: 0.1753 - val_accuracy: 0.5455 - val_loss: 2.1199
+Epoch 12/30
+64/64 ━━━━━━━━━━━━━━━━━━━━ 21s 335ms/step - accuracy: 0.9237 - loss: 0.2002 - val_accuracy: 0.5379 - val_loss: 2.0067
+Epoch 13/30
+64/64 ━━━━━━━━━━━━━━━━━━━━ 21s 334ms/step - accuracy: 0.9611 - loss: 0.1323 - val_accuracy: 0.5833 - val_loss: 1.6428
+...
+Epoch 30/30
+64/64 ━━━━━━━━━━━━━━━━━━━━ 21s 336ms/step - accuracy: 0.9843 - loss: 0.0467 - val_accuracy: 0.9205 - val_loss: 0.3698
+9/9 ━━━━━━━━━━━━━━━━━━━━ 3s 212ms/step - accuracy: 0.9361 - loss: 0.2390
+Test Accuracy: 0.9451
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
