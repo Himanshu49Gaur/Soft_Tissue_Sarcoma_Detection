@@ -154,7 +154,7 @@ The GCN-based approach successfully models relational dependencies among feature
 | `Name` | Himanshu Gaur |
 | `Email` | himanshugaur1810@gmail.com |
 | `LinkedIn` | https://www.linkedin.com/in/himanshu-gaur-305006282/ |
-| `GitHub` | Himanshu49Gaur |
+| `GitHub` | https://github.com/Himanshu49Gaur |
 
 ---
 
