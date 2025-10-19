@@ -115,3 +115,23 @@ The model achieved high validation accuracy with clear class separation across a
 | `Result Section` | Contains all the results with Images, Results, Graphs etc. | 
 
 ---
+
+## 8. How to Run
+
+### Install Dependencies
+pip install torch torchvision torchaudio torch-geometric tensorflow scikit-learn matplotlib seaborn numpy pandas
+
+### Ensure CUDA Availability
+import torch
+print("CUDA Available:", torch.cuda.is_available())
+
+### Execute the Script
+python Soft_Tissue_Sarcoma_Detection.py
+
+### Optional
+To explore analysis interactively:
+jupyter notebook Soft_Tissue_Sarcoma_Detection.ipynb
+
+undefined
+
+---
