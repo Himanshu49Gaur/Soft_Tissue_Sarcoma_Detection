@@ -102,3 +102,12 @@ The model achieved high validation accuracy with clear class separation across a
 - Confusion matrix for class-wise performance
 
 ---
+
+## 7. File Description
+
+| File | Description |
+|------|--------------|
+| `Soft_Tissue_Sarcoma_Detection.ipynb` | Jupyter notebook containing full pipeline & analysis |
+| `Soft_Tissue_Sarcoma_Detection.py` | Executable Python version of the notebook |
+| `optimized_hybrid_cnn_rnn_model.keras` | Pretrained feature extraction model |
+| `README.md` | Documentation file (this file) |
