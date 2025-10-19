@@ -72,3 +72,8 @@ The EDA revealed slight class imbalance and high feature variance, which justifi
 | `README.md` | Documentation explaining the purpose, methodology, and findings of the EDA process. |
 
 ---
+
+## 7. Conclusion
+
+The Exploratory Data Analysis phase provided a comprehensive understanding of the Soft Tissue Sarcoma dataset, ensuring the integrity, quality, and readiness of the data for deep learning model development.  
+The insights gained here directly influenced preprocessing, augmentation, and model selection, leading to improved accuracy and stability in the final detection framework.
