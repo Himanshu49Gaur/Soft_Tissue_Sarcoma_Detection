@@ -68,7 +68,7 @@ The EDA revealed slight class imbalance and high feature variance, which justifi
 
 | File Name | Description |
 |------------|-------------|
-| `eda_analysis.ipynb` | Jupyter notebook containing full exploratory data analysis workflow. |
+| `eda_analysis.py` | Python File containing full exploratory data analysis workflow. |
 | `README.md` | Documentation explaining the purpose, methodology, and findings of the EDA process. |
 
 ---
