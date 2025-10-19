@@ -63,3 +63,12 @@ The code follows a structured approach:
 The EDA revealed slight class imbalance and high feature variance, which justified implementing augmentation and normalization. These steps improved model convergence and reduced bias in later training stages.
 
 ---
+
+## 6. Files Included
+
+| File Name | Description |
+|------------|-------------|
+| `eda_analysis.ipynb` | Jupyter notebook containing full exploratory data analysis workflow. |
+| `README.md` | Documentation explaining the purpose, methodology, and findings of the EDA process. |
+
+---
