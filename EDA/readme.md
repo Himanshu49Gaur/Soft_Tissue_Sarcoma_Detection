@@ -18,3 +18,18 @@ The EDA conducted in this section provided insights into **data quality, class d
 5. **Guide Preprocessing Decisions** – Provide a data-driven foundation for normalization, augmentation, and feature extraction strategies.
 
 ---
+
+## 3. Techniques Used
+
+The following EDA techniques and methods were employed in this project:
+
+| Technique | Description | Implementation Summary |
+|------------|-------------|-------------------------|
+| **Dataset Summary Statistics** | Computes total samples, mean, standard deviation, and dimensionality across all sets. | Used Python’s `os` and `PIL` to traverse image directories and calculate statistics. |
+| **Class Distribution Analysis** | Evaluates image count per label to identify imbalance. | Implemented with `pandas` and `matplotlib` for count plots. |
+| **Image Visualization** | Displays random image samples from each class to verify data quality. | Utilized `matplotlib.pyplot.imshow()` for visual inspection. |
+| **Pixel Intensity Distribution** | Examines mean and standard deviation of pixel intensities to check brightness variation. | Used NumPy for pixel-level analysis. |
+| **Feature Correlation Study** | Identifies correlations or redundancies between extracted features. | Conducted with `seaborn.heatmap()` and `numpy.corrcoef()`. |
+| **Augmentation Impact Review** | Assesses the effectiveness of data augmentation in balancing classes. | Compared pre- and post-augmentation histograms. |
+
+---
