@@ -144,3 +144,11 @@ The GCN-based approach successfully models relational dependencies among feature
 - Implement **Graph Attention Networks (GAT)** for adaptive weighting.  
 - Incorporate **explainable AI** techniques for enhanced interpretability.  
 - Deploy trained model via **web/Streamlit** interface for clinical accessibility.
+
+---
+
+## 10. References
+- Kipf, T.N., & Welling, M. (2016). *Semi-Supervised Classification with Graph Convolutional Networks.*  
+- Hamilton, W. et al. (2017). *Inductive Representation Learning on Large Graphs.*  
+- PyTorch Geometric Documentation – [https://pytorch-geometric.readthedocs.io]()  
+- TensorFlow Keras Documentation – [https://www.tensorflow.org/guide/keras]()
