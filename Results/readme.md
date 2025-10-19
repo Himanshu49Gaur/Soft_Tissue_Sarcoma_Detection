@@ -92,3 +92,15 @@ This section presents all the experimental results, dataset statistics, model ev
 
 ---
 
+### **Classification Report**
+
+| Metric          | Precision | Recall | F1-Score | Support |
+|------------------|------------|--------|-----------|----------|
+| Non-Tumor        | 0.84       | 0.87   | 0.85      | -        |
+| Non-Viable-Tumor | 0.85       | 0.84   | 0.84      | -        |
+| Viable           | 0.86       | 0.83   | 0.84      | -        |
+| **Accuracy**     |            |        | **0.85**  | **1020** |
+| **Macro Avg**    | 0.85       | 0.85   | 0.85      | 1020     |
+| **Weighted Avg** | 0.85       | 0.85   | 0.85      | 1020     |
+
+---
